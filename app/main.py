@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Charger le modèle ML pré-entraîné
-MODEL_PATH = "models/model.pkl"
+MODEL_PATH = "models/linear_model.pkl"
 model = joblib.load(MODEL_PATH)
 
 # Créer l'application FastAPI
